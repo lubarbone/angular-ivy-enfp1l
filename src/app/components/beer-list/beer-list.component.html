@@ -1,0 +1,12 @@
+
+<div class="card shadow">
+  <h5 class="card-header"> Beer List </h5>
+  <div class="card-body"> 
+    <ul class="list-group" *ngFor="let beer of beersData">
+    <app-beer [beerItem]="beer"> </app-beer>  
+    </ul> </div>
+</div>
+
+<!-- id: {{beer.id}} Style:{{beer.beerStyle}} UPC:{{beer.upc}} Price:{{beer.price}} CreatedDate{{beer.createdDate}} LastModifiedDate{{beer.lastModifiedDate}}  -->
+<br>
+

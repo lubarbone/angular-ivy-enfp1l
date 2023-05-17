@@ -1,0 +1,26 @@
+<li class="list-group-item">
+  <label class="lead mb-2"> {{beerItem.beerName}} </label>
+  <div>
+    <table class="table table-default">
+      <thead>
+        <tr>
+          <th scope="col">Style</th>
+          <th scope="col">UPC</th>
+          <th scope="col">Price</th>
+          <th scope="col">Last Modified</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-info">
+          <td>{{beerItem.beerStyle}}</td>
+          <td>{{beerItem.upc}}</td>
+          <td>{{beerItem.price | currency:'EUR'}}</td>
+          <td>{{beerItem.lastModifiedDate | date:"dd/MM/yy HH:mm"}}</td>
+        </tr>
+    </table>
+    <div style="display:flex; justify-content: right">
+      <button class="btn btn-primary"> Edit </button>
+      <button class="btn btn-danger"> Delete </button>
+    </div>
+  </div>
+</li>
