@@ -22,7 +22,7 @@ export class BeerListComponent implements OnInit {
     
           price: 93.13,
     
-          createdDate: new Date('05-07-2022 07:34:39'),
+          createdDate: new Date('05-07-2022 19:34:39'),
     
           lastModifiedDate: new Date('10-08-2022 07:34:39'),
     
@@ -42,7 +42,7 @@ export class BeerListComponent implements OnInit {
     
           createdDate: new Date('05-07-2022 07:34:39'),
     
-          lastModifiedDate: new Date('05-07-2022 07:34:39'),
+          lastModifiedDate: new Date('05-07-2022 08:34:39'),
     
         },
     
@@ -60,7 +60,7 @@ export class BeerListComponent implements OnInit {
     
           createdDate: new Date('05-07-2022 07:34:39'),
     
-          lastModifiedDate: new Date('05-07-2022 07:34:39'),
+          lastModifiedDate: new Date('05-07-2022 23:24:47'),
     
         },
     

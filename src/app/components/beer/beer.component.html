@@ -1,5 +1,5 @@
 <li class="list-group-item">
-  <label class="lead mb-2"> {{beerItem.beerName}} </label>
+  <label class="lead mb-2"> {{ beerItem.beerName }} </label>
   <div>
     <table class="table table-default">
       <thead>
@@ -12,15 +12,17 @@
       </thead>
       <tbody>
         <tr class="table-info">
-          <td>{{beerItem.beerStyle}}</td>
-          <td>{{beerItem.upc}}</td>
-          <td>{{beerItem.price | currency:'EUR'}}</td>
-          <td>{{beerItem.lastModifiedDate | date:"dd/MM/yy HH:mm"}}</td>
+          <td style="width: 100px;">{{ beerItem.beerStyle }}</td>
+          <td>{{ beerItem.upc }}</td>
+          <td>{{ beerItem.price | currency: 'EUR' }}</td>
+          <td>{{ beerItem.lastModifiedDate | date: 'dd/MM/yy HH:mm' }}</td>
         </tr>
+      </tbody>
     </table>
+
     <div style="display:flex; justify-content: right">
-      <button class="btn btn-primary"> Edit </button>
-      <button class="btn btn-danger"> Delete </button>
+      <button class="btn btn-primary">Edit</button>
+      <button class="btn btn-danger">Delete</button>
     </div>
   </div>
 </li>
